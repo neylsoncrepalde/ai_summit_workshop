@@ -1,0 +1,276 @@
+AWS Energy Competency
+Service Offering Validation Checklist
+January 2024 - 2.0
+Self-assessment Spreadsheet
+Introduction
+The goal of the AWS Specialization Programs is to recognize AWS Partner Network Partners (“AWS Partners”) who demonstrate and maintain technical proficiency
+and proven customer success in specialized AWS Partner solution areas. The AWS Competency Partner Validation Checklist (“Checklist”) is intended for AWS Partners
+who are interested in applying for an AWS Specialization. This Checklist provides the criteria necessary to achieve the specialization as a consulting partner. AWS Partners undergo a technical validation of their capabilities upon applying for a specific specialization. AWS leverages
+in-house expertise and a third-party firm to facilitate the technical validation. AWS reserves the right to make changes to this document at any time and without notice.
+Expectation of Parties
+It is expected that AWS Partners will review this document in detail before applying for the AWS Competency Program, even if all of the prerequisites are met.
+If items in this document are unclear and require further explanation, please contact your AWS Partner Development Representative (“PDR”)
+or AWS Partner Development Manager “(PDM”) as the first step. Your PDR/PDM will contact the program office if further assistance is required.
+AWS Partners should complete the Self-Assessment Spreadsheet linked at the top of this page, prior to submitting a program application. Once completed, AWS Partners must submit an application in APN Partner Central. Visit the AWS Competency Program guide for step-by-step instructions on how to submit an application.
+AWS will review and aim to respond back with any questions within five business days to initiate scheduling of your technical validation or to request additional information.
+AWS Partners should prepare for the technical validation by reading the Checklist, completing a self-assessment using the Checklist, and gathering and organizing objective evidence to share with the reviewer on the day of the technical validation.
+AWS recommends that AWS Partners have individuals who are able to speak in-depth to the requirements and the customer examples during the technical validation. The best practice is for the AWS Partner to make the following personnel available for the technical validation: one or more highly-technical AWS certified engineers/architects in the area of competency specialty, an operations manager who is responsible for the operations and support elements, and a business development executive to conduct the overview presentation.
+AWS may revoke an AWS Partner’s Competency designation if, at any time, AWS determines in its sole discretion that such AWS Partner does not meet its AWS Competency Program requirements.
+If an AWS Partner’s AWS Competency designation is revoked, such AWS Partner will (i) no longer receive benefits associated with its designation, (ii) immediately cease use of all materials provided to it in connection with the applicable AWS Competency designation and (ii) immediately cease to identify itself as a member of the AWS Competency.
+AWS Partners should ensure that they have the necessary consents to share with the auditor (whether AWS or a third-party) all information contained within the objective evidence or any demonstrations prior to scheduling the audit.
+AWS Energy Competency Definition
+Vertical AWS Competencies are designed for AWS Partners with segment-specific solutions and practices on AWS. These are specialized AWS Partners
+with extensive expertise and experience focused on a specific market segment. AWS Partners with highly targeted solutions
+to industry-specific challenges and consulting practices that offer a unique segment domain knowledge are best positioned
+to pursue Vertical AWS Competencies. AWS Energy Competency Partners have demonstrated success in building solutions that span across the Energy value chain.
+The AWS Energy Competency Partners build innovative, cloud-based solutions in core business areas such as Upstream, Midstream,
+Downstream, HSE, New Energies, Data Analytics and Insights, Core Energy Business Applications.
+Requirements Overview
+The subsequent sections of this document define the requirements for AWS Partners to achieve the AWS Energy Competency designation. These requirements are broken down into the following categories:
+AWS Energy Competency Program Prerequisites - These requirements will be validated by the AWS Competency program team before scheduling a technical validation.
+Common AWS Partner Practice Requirements - These requirements validate the mechanisms and organizational practices in place to ensure the AWS Partner is able to consistently deliver high quality customer outcomes for AWS projects.
+Energy Practice Requirements - These requirements validate the AWS Partner's overall capabilities related to delivering Energy solutions for customers on AWS.
+Common Customer Example Requirements - These requirements validate that the architectural designs and implementation details of each of the provided customer examples follow best practices defined in the AWS documentation and other resources such as the AWS Well-Architected Framework. Use technical calibration guide for control-by-control best practices and example responses.
+Energy Customer Example Requirements - These requirements validate whether the provided customer examples demonstrate Energy-specific best practices and align with the target customer use cases for this AWS Competency.
+AWS Energy Competency Program Prerequisites
+The following items will be validated by the AWS Competency Program Manager; missing or incomplete information must be addressed prior to scheduling of the technical validation.
+1.0APN Program Membership
+1.1Program Guidelines
+The AWS Partner must read the Program Guidelines and Definitions before applying to the Energy Competency Program. Click here for Program details.
+1.2Services Path Membership
+Partner must be at the Validated or Differentiated stage within the Services Path. Partners should talk to their PDR/PDM about how to join the Services Path.
+1.3AWS Partner Tier
+Partner must be an AWS Advanced or Premier Tier Partner.
+2.0Example AWS Customer Deployments
+2.1Production AWS Customer Case Studies
+AWS Partner must privately share with AWS details about four (4) unique examples of Energy projects executed for four (4) unique AWS customers. Each case study must demonstrate how the partner offering was used by a customer to solve a specific Energy customer challenge using AWS.
+In addition to the required case study details provided in AWS Partner Central, the partner must also provide architecture diagrams of the specific customer deployment and information listed in the technical requirements sections of this validation checklist.
+The information provided for these case studies will be used by AWS for validation purposes only. AWS Partner is not required to publish these details publicly.
+AWS Partner can reuse the same case study across different AWS Specialization designations as long as the case study and implementation scope are relevant to those designations. The partner should make
+sure the existing case study clearly explains the relevance to each designation they are applying for.
+In cases where a case study is used across multiple AWS Partner Specialization applications, the partner must attach a completed self-assessment spreadsheet for each Specialization with all service-specific details provided.
+AWS will accept one case study per customer. Each customer must be a separate legal entity to qualify. The partner may use an example for an internal or affiliate company of the partner if the offering is available to outside customers.
+All case studies must describe deployments that have been performed within the past 18 months and must be for projects that are in production with customers, rather than in a ‘pilot’ or proof of concept stage.
+All case studies provided will be examined in the Documentation Review of the Technical Validation. The partner offering will be removed from consideration if the partner cannot provide the documentation necessary to assess all case studies against each relevant validation checklist item, or if any of the validation checklist items are not met.
+2.2Publicly Available Case Studies
+At least two (2) of the provided case studies must be publicly available examples describing how the AWS Partner used AWS to help solve a specific customer challenge related to Energy. These publicly available examples may be in the form of formal customer case studies, white papers, videos, or blog posts. The partner will provide the publicly available URL (published by the partner) in the AWS Partner Central "Case Study URL' field, which must include the following details:
+AWS Customer name
+AWS Partner name
+AWS Customer challenge that aligns with the scope of the competency and selected category
+Using both high-level and technical details, describe how AWS was leveraged as part of the AWS Partner solution
+Outcome(s) and/or quantitative results
+Anonymized Public Case Studies
+In cases where the partner cannot publicly name customers due to the sensitive nature of the customer engagements, the partner may choose to anonymize the public case study. Anonymized public case
+study details will be published by AWS, but the customer name will remain private. The partner must provide the AWS Customer name in the ‘Company name’ field of the AWS Partner Central case study for
+validation purposes, but it will not be published by AWS. The case study fields that will be published to Partner Solutions Finder (PSF) by AWS include the ‘Title’, ‘Case Study Description’, and ‘Case Study URL’.
+The partner will provide the publicly available URL (published by the partner) in the AWS Partner Central‘Case Study URL’ field, which must include the following details:
+AWS Customer description (e.g. a top 5 US retailer, a Fortune 500 financial institution, etc.)
+AWS Partner name
+AWS Customer challenge that aligns with the scope of the competency and selected category
+Using both high-level and technical details, describe how AWS was leveraged as part of the AWS Partner solution
+Outcome(s) and/or quantitative results
+For best practice on how to write an accepted Public case study, see the Public Case Study Guide.
+3.0AWS Partner Self-Assessment
+3.1AWS Partner Self-Assessment
+AWS Partner must conduct a self-assessment of their compliance to the requirements of the AWS Energy Consulting Partner Validation Checklist. A version of this checklist is available in spreadsheet format. Links to the appropriate Self-Assessment Spreadsheet can be found at the top of this page.
+AWS Partner must complete all sections of the Self-Assessment Spreadsheet. For competency with multiple categories, AWS Partners will fill in details for the chosen application Category and mark other Categories as N/A.
+Completed Self-Assessment Spreadsheet must be uploaded at the time of submitting an application in APN Partner Central.
+It is recommended that AWS Partner have their AWS Partner Solution Architect, Partner Development Representative (PDR), or Partner Development Manager (PDM) review the completed Self-Assessment Spreadsheet before submitting to AWS. The purpose of this is to ensure the AWS Partner’s AWS team is engaged and working to provide recommendations prior to the validation and to help ensure a positive validation experience.
+Common AWS Partner Practice Requirements
+The following requirements validate the mechanisms and organizational practices in place to ensure the AWS Partner is able to consistently deliver high quality customer outcomes for AWS projects. This section of the requirements are WAIVED if the associated offering has an approved Service Offering Foundational Technical Review OR if the AWS Partner has achieved another AWS Services Competency within the last 12 months.
+Energy Practice Overview
+POV-001 - Customer Presentation
+AWS Partner has a company overview presentation that sets the stage for customer conversations about their AWS Energy capabilities and showcases AWS Partner’s demonstration capabilities.
+Presentation contains information about the AWS Partner’s AWS Energy capabilities, including AWS specific differentiators, e.g., what is unique about the AWS Partner’s practice that can only be accomplished leveraging AWS.
+Overview presentations contain:
+Company history
+Office locations
+Number of employees
+Customer profile, including number, size, and industries of customers
+Overview of Energy practice
+Notable AWS projects
+Please provide the following as evidence:
+Delivery of presentation by a business development executive at the beginning of the validation session. This should be limited to 15 minutes.
+POV-002 - Maintaining AWS Expertise
+AWS Partner has internal mechanisms for maintaining their consultants' expertise on Energy-related AWS services and tools.
+Please provide the following as evidence:
+List of internal and/or external AWS-focused education events lead by AWS Partner staff (e.g. formal training, lunch and learns, meetups, user groups, etc.) in last 12 months.
+Resources provided by AWS Partner to staff for ongoing AWS skills development
+POV-003 - AWS Partner Solution Selling
+AWS Partner must describe how Energy opportunities are identified, how their sellers are trained to identify and sell those opportunities, and specific demand generation/lead generation efforts associated to their AWS Energy practice.
+Please provide the following as evidence:
+A description on how the AWS Partner engages with customers, their internal sellers, and AWS sellers if applicable.
+POV-004 - AWS Sales Engagement
+AWS Partner must describe how and when they engage with AWS sellers and AWS Solutions Architects.
+Please provide the following as evidence:
+A verbal description for how and when they engage AWS sellers or AWS Solutions Architects on an opportunity or in the form of a demonstration of the AWS Opportunity Management tool in AWS Partner Central with sales qualified opportunities submitted (sales qualified = budget, authority, need, timeline, and competition fields completed).
+POV-005 - Training for Internal Personnel
+AWS Partner must have a process to ensure that there are sufficient Energy trained personnel to effectively support customers.
+Please provide the following as evidence:
+An established training plan including on-boarding processes that identify job roles (sellers, solutions architects, project managers) and required training paths
+A verbal description of methods used to allocate required resources to Energy projects
+AWS Partner Delivery Model
+PRJ-001 - Expected Outcomes
+AWS Partner has processes for working with customers to determine and define expected outcomes associated with the projects.
+Please provide the following as evidence:
+Project deliverable templates or other resources used for project scoping and definition
+PRJ-002 - Scope
+AWS Partner has processes to determine scope of work with specific criteria defining customer project with expected deliverables.
+Please provide the following as evidence:
+Project templates or other resources(e.g. RACI Matrix) used for project scoping and definition
+PRJ-003 - Statement of Work
+AWS Partner has standard Statement of Work (SOW) templates for Energy projects that can be customized to customer needs.
+Please provide the following as evidence:
+Default SOW template
+PRJ-004 - Project Manager
+AWS Partner assigns Project Manager to each project to ensure project remains on time and within budget.
+Please provide the following as evidence:
+Documentation to show that Project Managers were assigned to each of the 4 customer example projects.
+PRJ-005 - Change Management
+AWS Partner has processes to document, manage, and respond to requests for changes to the project scope.
+Please provide the following as evidence:
+Documentation of change management practices
+Customer Satisfaction
+CSN-001 - Customer Acceptance for Projects
+AWS Partner has a customer acceptance process.
+Please provide the following as evidence:
+Example customer training documents
+SOW language describing handoff responsibilities and acceptance criteria
+CSN-002 - Customer Satisfaction Aligned to Project Milestones
+AWS Partner implements customer satisfaction checkpoints as part of the project plan.
+Please provide the following as evidence:
+Project plan and customer satisfaction results for milestone-defined checkpoints
+Common Customer Example Requirements
+All of the following requirements must be met by at least one of the four submitted customer examples. See specific evidence for each control. Refer to calibration guide for example responses.
+Documentation
+Requirements in this category relate to the documentation provided for each customer example.
+DOC-001 - Provide Architecture diagram designed with scalability and high availability
+AWS Partner must submit architecture diagrams depicting the overall design and deployment of its AWS Partner solution on AWS as well as any other relevant details of the solution for the specific customer in question.
+The submitted diagrams are intended to provide context to the AWS Solutions Architect conducting the Technical Validation. It is critical to provide clear diagrams with an appropriate level of detail that enable the AWS Solutions Architect to validate the other requirements listed below.
+Each architecture diagram must show:
+All of the AWS services used
+How the AWS services are deployed, including virtual private clouds (VPCs), availability zones, subnets, and connections to systems outside of AWS.
+Elements deployed outside of AWS, e.g. on-premises components, or hardware devices.
+how design scales automatically - Solution adapts to changes in demand. The architecture uses services that automatically scale such as Amazon S3, Amazon CloudFront, AWS Auto Scaling, and AWS Lambda.
+how design has high availability with multi-AZ or multi-region deployment. When intentional tradeoffs have been made (e.g. to optimize cost in favor of high availability), please explain the customer's requirements.
+Please provide the following as evidence (required for all provided customer examples):
+An architecture diagram depicting the overall design and deployment of your solution on AWS.
+Explanation of how the major solutions elements will keep running in case of failure.
+Description of how the major solutions elements scale up automatically.
+Secure Customer AWS Account Governance and Access
+Any AWS accounts created by the AWS Partner on behalf of the customer or AWS accounts that the AWS Partner administers as part of the engagement must meet the following requirements.
+ACCT-001 - Define Secure AWS Account Governance Best Practice
+AWS expects all Services Partners to be prepared to create AWS accounts and implement basic security best practices. Even if most of your customer engagements do not require this, you should be prepared in the event you work with a customer who needs you to create new accounts for them.
+Establish internal processes regarding how to create AWS accounts on behalf of customers when needed, including:
+When to use root account for workload activities
+Enable MFA on root
+Set the contact information to corporate email address or phone number
+Enable CloudTrail logs in all region and protect CloudTrail logs from accidental deletion with a dedicated S3 bucket
+Please provide the following as evidence:
+Documents describing Security engagement SOPs which met all the 4 criteria defined above. Acceptable evidence types are security training documents, internal wikis, or standard operating procedures documents.
+Description of how Secure AWS Account Governance is implemented in one (1) of the submitted customer examples.
+ACCT-002 - Define identity security best practice on how to access customer environment by leveraging IAM
+Define standard approach to access customer-owned AWS accounts, including:
+Both AWS Management Console access and programmatic access using the AWS Command Line Interface or other custom tools.
+When and how to use temporary credentials such as IAM roles
+Leverage customer's existing enterprise user identities and their credentials to access AWS services through Identity Federation or migrating to AWS Managed Active Directory
+Establish best practices around
+AWS Identity and Access Management (IAM) and other identity and access management systems, including:
+IAM principals are only granted the minimum privileges necessary. Wildcards in Action and Resource elements should be avoided as much as possible.
+Every AWS Partner individual who accesses an AWS account must do so using dedicated credentials
+Please provide the following as evidence:
+Security engagement Standard Operation Procedure (SOP) which met all the 2 criteria defined above. Acceptable evidence types are: security training documents, internal wikis, standard operating procedures documents. Written descriptions in the self-assessment excel is not acceptable.
+Description of how IAM best practices are implemented in one (1) of the submitted customer examples.
+Operational Excellence
+Requirements in this category relate to the ability of the AWS Partner and the customer to run and monitor systems to deliver business value and to continually improve supporting processes and procedures.
+OPE-001 - Define, monitor and analyze customer workload health KPIs
+AWS Partner has defined metrics for determining the health of each component of the workload and provided the customer with guidance on how to detect operational events based on these metrics.
+Establish the capability to run, monitor and improve operational procedure by:
+Defining, collecting and analyzing workload health metrics w/AWS services or 3rd Party tool
+Exporting standard application logs that capture errors and aid in troubleshooting and response to operational events.
+Defining threshold of operational metrics to generate alert for any issues
+Please provide the following as evidence:
+Standardized documents or guidance on how to develop customer workload health KPIs with the three components above
+Description of how workload health KPIs are implemented in (1) of the submitted customer examples.
+OPE-002 - Define a customer runbook/playbook to guide operational tasks
+Create a runbook to document routine activities and guide issue resolution process with a list of operational tasks and troubleshooting scenarios covered that specifically addresses the KPI metrics defined in OPE-001.
+Please provide the following as evidence:
+Standardized documents or runbook met the criteria defined above.
+OPE-003 - Use consistent processes (e.g. checklist) to assess deployment readiness
+Deployments are tested or otherwise validated before being applied to the production environment. For example, DevOps pipelines used for the project for provisioning resources or releasing software and applications.
+Use a consistent approach to deploy to customers including:
+A well-defined testing process before launching in production environment
+Automated testing components
+Please provide the following as evidence:
+A deployment checklist example or written descriptions met all the criteria defined above.
+Security - Networking
+Requirements in this category focus on security best practices for Virtual Private Cloud (Amazon VPC) and other network security considerations.
+NETSEC-001 - Define security best practices for Virtual Private Cloud (Amazon VPC) and other network security considerations.
+Establish internal processes regarding how to secure traffic within VPC, including:
+Security Groups to restrict traffic between Internet and Amazon VPC
+Security Groups to restrict traffic within the Amazon VPC
+Network ACL to restrict inbound and outbound traffic
+Other AWS security services to protect network security
+Please provide the following as evidence:
+Written descriptions/documents on network security best practices met the criteria defined above.
+Description of how network security is implementation in one (1) of the submitted customer examples.
+NETSEC-002 - Define data encryption policy for data at rest and in transit
+Establish internal processes regarding a data encryption policy used across all customer projects
+Summary of any endpoints exposed to the Internet and how traffic is encrypted
+Summary of processes that make requests to external endpoints over the Internet and how traffic is encrypted
+Enforcing encryption at rest. By default you should enable the native encryption features in an AWS service that stores data unless there is a reason not to.
+All cryptographic keys are stored and managed using a dedicated key management solution
+Please provide the following as evidence:
+Data encryption and key management policy met the criteria defined above.
+Description of how data encryption is implementation in one (1) of the submitted customer examples.
+Reliability
+Requirements in this section focus on the ability of the AWS Partner solution to prevent, and quickly recover from failures to meet business and customer demand.
+REL-001 - Automate Deployment and leverage infrastructure-as-code tools.
+Changes to infrastructure are automated for customer implementation
+Tools like AWS CloudFormation, the AWS CLI, or other scripting tools were used for automation.
+Changes to the production environment were not done using the AWS Management Console.
+Please provide the following as evidence:
+Written description of deployment automation and an example template (e.g., CloudFormation templates, architecture diagram for CI/CD pipeline) met the criteria defined above.
+REL-002 - Plan for disaster recovery and recommend Recoverty Time Objective (RTO) and Recoverty Point Objective (RPO).
+Incorporate resilience discussion and advise a RTO&PRO target when engaging with customer. Customer acceptance and adoption on RTO/RPO is not required.
+Establish a process to establish workload resilience including:
+RTO & RPO target
+Explanation of the recovery process for the core components of the architecture
+Customer awareness and communication on this topic
+Please provide the following as evidence:
+Descriptions or documents on workload resilience guidance met the three criteria defined above
+Description of how resilience is implementation in one (1) of the submitted customer examples including reasons for exception when RTO&RPO is not defined
+Cost Optimization
+Requirements in this category relate to the AWS Partner's ability to help customers run systems that deliver business value at the lowest price point.
+COST-001 - Develop total cost of ownership analysis or cost modelling
+Determine solution costs using right sizing and right pricing for both technical and business justification.
+Conducted TCO analysis or other form of cost modelling to provide the customer with an understanding of the ongoing costs including all the following 3 areas:
+Description of the inputs used to estimate the cost of the solution
+Summary of the estimates or cost model provided to the customer before implementation
+Business value analysis or value stream mapping of AWS solution
+Please provide the following as evidence:
+Description of how to develop cost analysis or modeling with the critical components defined above
+Cost analysis example in one (1) of the submitted customer examples. Acceptable evidence types are: price calculator link, reports or presentations on business values analysis
+Resources
+AWS Specialization Program Guide
+Provides step-by-step instructions when applying for an AWS Specialization.
+AWS Specialization Program Benefits Guide
+Provides a deeper description of the program benefits.
+AWS Competency Application Process
+Provides high-level visibility into the AWS Competency application process and timelines for associated process steps.
+AWS Competency & SDP Common Customer Example Requirement Calibration Guide
+Provides control-by-control best practices, resources to implement, good example responses.
+How to build a microsite
+Provides guidance on how to build a microsite to highlight your AWS Specialization.
+How to build a public case study
+Provides guidance on how to build a public customer case study that will showcase your success with AWS Customers.
+How to build an architecture diagram
+Provides guidance on how to build an architecture diagrams that will meet the prerequisites of the Program.
+Well Architected Website
+Learn about the Well Architected Framework and its approach.
+SaaS Best Practices
+Provides best practices on SaaS
+Changes between previous and current versions
+Change Log
+Deployment Pipeline Reference Architecture
+Learn about the stages and actions for different types of pipelines that exist in modern systems.

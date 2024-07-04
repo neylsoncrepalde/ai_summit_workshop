@@ -1,0 +1,13 @@
+Me dê uma lista de todas as informações que vc precisa para criar um caso de uso para competência.
+
+Por favor, crie um caso de uso para competência. O cliente deste projeto foi a companhia de seguros "Seguro Certo". 
+Eles tinham um desafio de melhorar o engajamento de seus clientes em suas plataformas digitais. 
+Para solucionar o problema, criamos um assistente de atendimento ao cliente totalmente automatizado com GenAI. 
+O nome do projeto foi "Seguro Certo - Contact Center". O projeto tinha um orçamento de 56 mil reais 
+e suas métricas de sucesso foram (1) aumento de NPS, (2) aumento de curtidas na página e (3) diminuição do churn.
+
+Por favor, crie um caso de uso para competência. O cliente deste projeto foi a companhia de seguros "Hospital Legal". 
+Eles tinham um desafio de melhorar o engajamento de seus clientes em suas plataformas digitais. 
+Para solucionar o problema, criamos um assistente de atendimento ao cliente totalmente automatizado com GenAI. 
+O nome do projeto foi "Seguro Certo - Contact Center". O projeto tinha um orçamento de 92 mil reais 
+e suas métricas de sucesso foram (1) aumento de NPS, (2) melhora na avaliação do atendimento médico.

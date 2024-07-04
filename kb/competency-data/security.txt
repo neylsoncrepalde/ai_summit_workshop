@@ -1,0 +1,921 @@
+AWS Security Competency
+Service Offering Validation Checklist
+February 2024 - 3.1
+This AWS Security Competency Checklist updated to version (3.1) has gone into effect on February 17, 2024.
+Partners may choose to use the
+previous checklist version (3.0)
+until May 17, 2024 when the checklist will no longer be in effect. All applications submitted after May 17, 2024 are required to comply with the current Validation Checklist requirements.
+Self-assessment Spreadsheet
+Introduction
+The goal of the AWS Specialization Programs is to recognize AWS Partner Network Partners (“AWS Partners”) who demonstrate and maintain technical proficiency
+and proven customer success in specialized AWS Partner solution areas. The AWS Competency Partner Validation Checklist (“Checklist”) is intended for AWS Partners
+who are interested in applying for an AWS Specialization. This Checklist provides the criteria necessary to achieve the specialization as a consulting partner. AWS Partners undergo a technical validation of their capabilities upon applying for a specific specialization. AWS leverages
+in-house expertise and a third-party firm to facilitate the technical validation. AWS reserves the right to make changes to this document at any time and without notice.
+Expectation of Parties
+It is expected that AWS Partners will review this document in detail before applying for the AWS Competency Program, even if all of the prerequisites are met.
+If items in this document are unclear and require further explanation, please contact your AWS Partner Development Representative (“PDR”)
+or AWS Partner Development Manager “(PDM”) as the first step. Your PDR/PDM will contact the program office if further assistance is required.
+AWS Partners should complete the Self-Assessment Spreadsheet linked at the top of this page, prior to submitting a program application. Once completed, AWS Partners must submit an application in APN Partner Central. Visit the AWS Competency Program guide for step-by-step instructions on how to submit an application.
+AWS will review and aim to respond back with any questions within five business days to initiate scheduling of your technical validation or to request additional information.
+AWS Partners should prepare for the technical validation by reading the Checklist, completing a self-assessment using the Checklist, and gathering and organizing objective evidence to share with the reviewer on the day of the technical validation.
+AWS recommends that AWS Partners have individuals who are able to speak in-depth to the requirements and the customer examples during the technical validation. The best practice is for the AWS Partner to make the following personnel available for the technical validation: one or more highly-technical AWS certified engineers/architects in the area of competency specialty, an operations manager who is responsible for the operations and support elements, and a business development executive to conduct the overview presentation.
+AWS may revoke an AWS Partner’s Competency designation if, at any time, AWS determines in its sole discretion that such AWS Partner does not meet its AWS Competency Program requirements.
+If an AWS Partner’s AWS Competency designation is revoked, such AWS Partner will (i) no longer receive benefits associated with its designation, (ii) immediately cease use of all materials provided to it in connection with the applicable AWS Competency designation and (ii) immediately cease to identify itself as a member of the AWS Competency.
+AWS Partners should ensure that they have the necessary consents to share with the auditor (whether AWS or a third-party) all information contained within the objective evidence or any demonstrations prior to scheduling the audit.
+AWS Security Competency Definition
+AWS Security Competency Partners provide deep technical and consulting expertise to help AWS customers adopt, develop, and deploy complex security projects.
+Security Consulting Categories
+Customers have many different needs when it comes to security, so the Security Consulting Competency categories help customers find the right partner to solve their current set of security challenges. A customer may need their infrastructure designed from the
+ground up, they may want automation to help with incident response, or they may want their environment to meet the requirements of an audit regime. In order to properly showcase the best AWS Partner
+for specific customer needs, it is important to highlight referenceable areas of strength, depth, and experience.
+AWS Security Competency Partners are able to guide customers through all phases of security project development, including the integration of native AWS Security Services, AWS controls, and AWS software partners to meet customer requirements.
+Below are the eight categories for Security Consulting Competency. Partners must fulfill all the Security Practice Overview requirements. Additionally, partners are required to choose one or more of the eight categories in the Security Practice Requirements and meet the criteria specified within the selected category/categories.
+Identity and Access Management - AWS Partners in this category have a proven track record of helping customers define, enforce, and audit permissions across internal and external services, principals, actions, and resources, including AWS accounts.
+Threat Detection and Response - Partners need to demonstrate the ability to spot issues before they impact an account
+and act on that knowledge to improve the security posture and reduce the risk profile of their customers.
+Infrastructure Protection - AWS Partners showcase their ability to ensure that systems and services within customer
+workloads are protected against potential vulnerabilities as well as unintended and unauthorized access. For example, you'll
+define 1/ trust boundaries, 2/ system security configuration and maintenance, 3/ operating system authentication and authorizations,
+and 4/ other appropriate policy-enforcement points such as web application firewalls and/or API gateways.
+Data Protection - Data Protection focuses on understanding sensitive data in a customer environment and creating controls
+based on different levels of sensitivity.
+Controls include encrypting, categorizing, tracking, and tokenizing sensitive data to
+meet compliance with internal, regional, and industry compliance requirements.
+Compliance and Privacy - AWS Partners in this category have a proven track record of helping customers build environments
+in the cloud that adhere to industry standards, pass internal/external audits regimes, and achieve third party certification.
+Application Security - Application Security is focused on helping customers test and protect their code from threats. Protections include: performing code reviews, code scanning, penetration testing, prevention of vulnerabilities exploitation and bot attacks, runtime protection, guidance, and mitigation of findings. AWS Partners also implement secure application environments for customers. Areas where these partner activities help include: finding bugs in code, outlining secure software development practices, advising customers on choosing the appropriate encryption libraries, and assessing the permissions of their S3 Bucket policies.
+Perimeter Protection - Partners who help customers implement and manage AWS Shield Advanced to protect AWS resources such
+as Elastic IP, Elastic Load Balancer (ELB), Amazon CloudFront, AWS Global Accelerator, and Amazon Route 53 from application threats
+like Distributed Denial of Service (DDoS), SQL Injection, and Cross-Site Scripting. These partners operate 24/7 Security Operations
+Centers (SOC), which support configuring, maintaining, monitoring, and troubleshooting AWS workloads to ensure application availability
+and performance.
+Core Security - AWS Partners in this category demonstrate broad and deep knowledge across the core categories, which are:
+Identity and Access Management, Threat Detection and Response, Infrastructure Protection, Data Protection, Compliance and Privacy, Application Security categories, and Perimeter Protection. Partners obtaining this category will be provided certification in all of these core categories.
+Requirements Overview
+The subsequent sections of this document define the requirements for AWS Partners to achieve the AWS Security Competency designation. These requirements are broken down into the following categories:
+AWS Security Competency Program Prerequisites - These requirements will be validated by the AWS Competency program team before scheduling a technical validation.
+Common AWS Partner Practice Requirements - These requirements validate the mechanisms and organizational practices in place to ensure the AWS Partner is able to consistently deliver high quality customer outcomes for AWS projects.
+Security Practice Requirements - These requirements validate the AWS Partner's overall capabilities related to delivering Security solutions for customers on AWS.
+Common Customer Example Requirements - These requirements validate that the architectural designs and implementation details of each of the provided customer examples follow best practices defined in the AWS documentation and other resources such as the AWS Well-Architected Framework. Use technical calibration guide for control-by-control best practices and example responses.
+Security Customer Example Requirements - These requirements validate whether the provided customer examples demonstrate Security-specific best practices and align with the target customer use cases for this AWS Competency.
+AWS Security Competency Program Prerequisites
+The following items will be validated by the AWS Competency Program Manager; missing or incomplete information must be addressed prior to scheduling of the technical validation.
+1.0APN Program Membership
+1.1Program Guidelines
+The AWS Partner must read the Program Guidelines and Definitions before applying to the Security Competency Program. Click here for Program details.
+1.2Services Path Membership
+Partner must be at the Validated or Differentiated stage within the Services Path. Partners should talk to their PDR/PDM about how to join the Services Path.
+1.3AWS Partner Tier
+Partner must be an AWS Advanced or Premier Tier Partner.
+2.0Example AWS Customer Deployments
+2.1Production AWS Customer Case Studies
+AWS Partner must privately share with AWS details about four (4) unique examples of Security projects executed for four (4) unique AWS customers. Each case study must demonstrate how the partner offering was used by a customer to solve a specific Security customer challenge using AWS.
+In addition to the required case study details provided in AWS Partner Central, the partner must also provide architecture diagrams of the specific customer deployment and information listed in the technical requirements sections of this validation checklist.
+The information provided for these case studies will be used by AWS for validation purposes only. AWS Partner is not required to publish these details publicly.
+AWS Partner can reuse the same case study across different AWS Specialization designations as long as the case study and implementation scope are relevant to those designations. The partner should make
+sure the existing case study clearly explains the relevance to each designation they are applying for.
+In cases where a case study is used across multiple AWS Partner Specialization applications, the partner must attach a completed self-assessment spreadsheet for each Specialization with all service-specific details provided.
+AWS will accept one case study per customer. Each customer must be a separate legal entity to qualify. The partner may use an example for an internal or affiliate company of the partner if the offering is available to outside customers.
+All case studies must describe deployments that have been performed within the past 18 months and must be for projects that are in production with customers, rather than in a ‘pilot’ or proof of concept stage.
+All case studies provided will be examined in the Documentation Review of the Technical Validation. The partner offering will be removed from consideration if the partner cannot provide the documentation necessary to assess all case studies against each relevant validation checklist item, or if any of the validation checklist items are not met.
+2.2Publicly Available Case Studies
+At least two (2) of the provided case studies must be publicly available examples describing how the AWS Partner used AWS to help solve a specific customer challenge related to Security. These publicly available examples may be in the form of formal customer case studies, white papers, videos, or blog posts. The partner will provide the publicly available URL (published by the partner) in the AWS Partner Central "Case Study URL' field, which must include the following details:
+AWS Customer name
+AWS Partner name
+AWS Customer challenge that aligns with the scope of the competency and selected category
+Using both high-level and technical details, describe how AWS was leveraged as part of the AWS Partner solution
+Outcome(s) and/or quantitative results
+Anonymized Public Case Studies
+In cases where the partner cannot publicly name customers due to the sensitive nature of the customer engagements, the partner may choose to anonymize the public case study. Anonymized public case
+study details will be published by AWS, but the customer name will remain private. The partner must provide the AWS Customer name in the ‘Company name’ field of the AWS Partner Central case study for
+validation purposes, but it will not be published by AWS. The case study fields that will be published to Partner Solutions Finder (PSF) by AWS include the ‘Title’, ‘Case Study Description’, and ‘Case Study URL’.
+The partner will provide the publicly available URL (published by the partner) in the AWS Partner Central‘Case Study URL’ field, which must include the following details:
+AWS Customer description (e.g. a top 5 US retailer, a Fortune 500 financial institution, etc.)
+AWS Partner name
+AWS Customer challenge that aligns with the scope of the competency and selected category
+Using both high-level and technical details, describe how AWS was leveraged as part of the AWS Partner solution
+Outcome(s) and/or quantitative results
+For best practice on how to write an accepted Public case study, see the Public Case Study Guide.
+3.0AWS Partner Self-Assessment
+3.1AWS Partner Self-Assessment
+AWS Partner must conduct a self-assessment of their compliance to the requirements of the AWS Security Consulting Partner Validation Checklist. A version of this checklist is available in spreadsheet format. Links to the appropriate Self-Assessment Spreadsheet can be found at the top of this page.
+AWS Partner must complete all sections of the Self-Assessment Spreadsheet. For competency with multiple categories, AWS Partners will fill in details for the chosen application Category and mark other Categories as N/A.
+Completed Self-Assessment Spreadsheet must be uploaded at the time of submitting an application in APN Partner Central.
+It is recommended that AWS Partner have their AWS Partner Solution Architect, Partner Development Representative (PDR), or Partner Development Manager (PDM) review the completed Self-Assessment Spreadsheet before submitting to AWS. The purpose of this is to ensure the AWS Partner’s AWS team is engaged and working to provide recommendations prior to the validation and to help ensure a positive validation experience.
+Common AWS Partner Practice Requirements
+The following requirements validate the mechanisms and organizational practices in place to ensure the AWS Partner is able to consistently deliver high quality customer outcomes for AWS projects. This section of the requirements are WAIVED if the associated offering has an approved Service Offering Foundational Technical Review OR if the AWS Partner has achieved another AWS Services Competency within the last 12 months.
+Security Practice Overview
+POV-001 - Customer Presentation
+AWS Partner has a company overview presentation that sets the stage for customer conversations about their AWS Security capabilities and showcases AWS Partner’s demonstration capabilities.
+Presentation contains information about the AWS Partner’s AWS Security capabilities, including AWS specific differentiators, e.g., what is unique about the AWS Partner’s practice that can only be accomplished leveraging AWS.
+Overview presentations contain:
+Company history
+Office locations
+Number of employees
+Customer profile, including number, size, and industries of customers
+Overview of Security practice
+Notable AWS projects
+Please provide the following as evidence:
+Delivery of presentation by a business development executive at the beginning of the validation session. This should be limited to 15 minutes.
+POV-002 - Maintaining AWS Expertise
+AWS Partner has internal mechanisms for maintaining their consultants' expertise on Security-related AWS services and tools.
+Please provide the following as evidence:
+List of internal and/or external AWS-focused education events lead by AWS Partner staff (e.g. formal training, lunch and learns, meetups, user groups, etc.) in last 12 months.
+Resources provided by AWS Partner to staff for ongoing AWS skills development
+POV-003 - AWS Partner Solution Selling
+AWS Partner must describe how Security opportunities are identified, how their sellers are trained to identify and sell those opportunities, and specific demand generation/lead generation efforts associated to their AWS Security practice.
+Please provide the following as evidence:
+A description on how the AWS Partner engages with customers, their internal sellers, and AWS sellers if applicable.
+POV-004 - AWS Sales Engagement
+AWS Partner must describe how and when they engage with AWS sellers and AWS Solutions Architects.
+Please provide the following as evidence:
+A verbal description for how and when they engage AWS sellers or AWS Solutions Architects on an opportunity or in the form of a demonstration of the AWS Opportunity Management tool in AWS Partner Central with sales qualified opportunities submitted (sales qualified = budget, authority, need, timeline, and competition fields completed).
+POV-005 - Training for Internal Personnel
+AWS Partner must have a process to ensure that there are sufficient Security trained personnel to effectively support customers.
+Please provide the following as evidence:
+An established training plan including on-boarding processes that identify job roles (sellers, solutions architects, project managers) and required training paths
+A verbal description of methods used to allocate required resources to Security projects
+AWS Partner Delivery Model
+PRJ-001 - Expected Outcomes
+AWS Partner has processes for working with customers to determine and define expected outcomes associated with the projects.
+Please provide the following as evidence:
+Project deliverable templates or other resources used for project scoping and definition
+PRJ-002 - Scope
+AWS Partner has processes to determine scope of work with specific criteria defining customer project with expected deliverables.
+Please provide the following as evidence:
+Project templates or other resources(e.g. RACI Matrix) used for project scoping and definition
+PRJ-003 - Statement of Work
+AWS Partner has standard Statement of Work (SOW) templates for Security projects that can be customized to customer needs.
+Please provide the following as evidence:
+Default SOW template
+PRJ-004 - Project Manager
+AWS Partner assigns Project Manager to each project to ensure project remains on time and within budget.
+Please provide the following as evidence:
+Documentation to show that Project Managers were assigned to each of the 4 customer example projects.
+PRJ-005 - Change Management
+AWS Partner has processes to document, manage, and respond to requests for changes to the project scope.
+Please provide the following as evidence:
+Documentation of change management practices
+Customer Satisfaction
+CSN-001 - Customer Acceptance for Projects
+AWS Partner has a customer acceptance process.
+Please provide the following as evidence:
+Example customer training documents
+SOW language describing handoff responsibilities and acceptance criteria
+CSN-002 - Customer Satisfaction Aligned to Project Milestones
+AWS Partner implements customer satisfaction checkpoints as part of the project plan.
+Please provide the following as evidence:
+Project plan and customer satisfaction results for milestone-defined checkpoints
+Security Practice Requirements
+The following requirements apply to AWS Partners' Security Practice.
+Security Practice Overview
+GEN-001 - Security CI/CD
+The service provided by the partner should encompass the capability to indirectly integrate security processes into the software build. This involves compiling source code, conducting tests, and performing security checks.
+Please provide the following as evidence:
+A documented process outlining how the AWS Partner facilitates the provisioning, management, and scaling of CI/CD servers, tailored to meet the overall organization's requirements.
+GEN-002 - Infrastructure and Security as Code
+The partner's service should encompass the capability and mechanisms necessary to transition manual security infrastructure builds and processes into automated, codified, and reproducible procedures.
+Please provide the following as evidence:
+A documented process delineating the software release process. Additionally, provide examples illustrating how the AWS Partner educates the customer on constructing and deploying tasks such as an AMI Pipeline or updating/creating AWS Security Groups.
+GEN-003 - ISV and Custom Tooling
+The partner's service should demonstrate the capability to deploy security tools in a scalable manner, ensuring operational excellence without adversely affecting the environment.
+Please provide the following as evidence:
+An example utilizing AWS CloudFormation or a similar template like Terraform, showcasing the implementation of a security solution. Alongside this, provide an architectural diagram that emphasizes the solution's scalability.
+GEN-004 - Inventory, Classification, and Hardening
+The partner's service must encompass processes and methodologies enabling the conduct of AWS resource inventory, assessment of current state configuration, review, and archival of historical changes, as well as the issuance of change notifications.
+Please provide the following as evidence:
+A detailed description of the process or policy employed by the AWS Partner for conducting AWS resource inventory, assessing current state configurations, reviewing and archiving historical changes, and sending change notifications. This description should include insights into the tools utilized for creating remediation plans and offering Well-Architected guidance. Tools such as AWS Config, Amazon Inspector, AWS CloudTrail, AWS Systems Manager, or third-party tools may be highlighted.
+GEN-005 - Centralization
+AWS Partners are required to have a process enabling centralized deployment and management of assets across multiple AWS accounts, regions, networks, and third-party tools.
+Please provide the following as evidence:
+A detailed policy description outlining the methodology for centralized management of both native and third-party tools, including centralization of logging, identities, and security alerts or findings."
+GEN-006 - Security and Infrastructure Provisioning
+AWS Partners are expected to employ methodologies that utilize standardized templated infrastructure provisioning. They should emphasize this as a critical factor for enabling repeatable deployments, especially for customers seeking automated security approaches.
+Please provide the following as evidence:
+A detailed description of the service offering or policy concerning AWS CloudFormation templates used for the four (4) submitted customer examples. This description should clarify whether the partner encourages the use of standardized AWS CloudFormation templates, develops templates specifically for the customer, or educates customers on creating templates.
+Examples of infrastructure could include:
+Security Reference Architecture
+Deployment of security infrastructure, tools, and services across multiple AWS accounts and regions (e.g., firewalls, IDS, proxies, etc.)
+VPC and network design, including multi-VPC design patterns and multi-region redundancy.
+Designing security infrastructure for secrets management, DDoS resilience, Identity and Access Management.
+Identity And Access Management
+For this category, provide a reference architecture and summary of custom policies, scripts, procedures, and training with a list of products used to deliver solutions to customers with the following requirements. Reference architectures can be re-used between sections if they are broad enough to apply.
+IDAM-001 - Cloud Infrastructure Entitlements Management (CIEM)
+The partner's service offering should encompass customization services and a suite of products that deliver the following capabilities:
+Entitlement Enforcement
+Entitlement Visibility
+Access Control
+Adaptive Authentication
+Anomalous Access Behavior Detection and Remediation Guidance
+Please provide the following as evidence:
+A reference architecture for the service, comprising a diagram illustrating the architecture, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and a detailed list of products utilized.
+The evidence should demonstrate the following capabilities:
+Implementation of policies for entitlement enforcement across diverse environments, including AWS, by using guardrails.
+Documentation of entitlement policies across multiple environments, including AWS.
+Management of access for humans, machines, and applications across multiple environments, including AWS.
+Utilization of historical logs to recommend policy updates that align with the principle of least privilege.
+Detection and alerting mechanisms for anomalous access patterns (e.g., activities occurring outside regular work hours or from unfamiliar locations).
+IDAM-002 - Identity and Verification (IDV)
+The partner's service should include customization services and a range of products capable of providing the following functionalities:
+Identity Provider capabilities compliant with the System for Cross-domain Identity Management (SCIM) standard
+Single Sign-On (SSO)
+Please provide the following as evidence:
+A reference architecture for the service, encompassing a reference architecture diagram, description of custom services (such as policies, scripts, procedures, runbooks, or training), and a comprehensive list of products employed.
+Evidence must demonstrate the following capabilities:
+Verification that a component of the service has been tested with the AWS IAM Identity Center SCIM implementation.
+Display of combined account visibility, showcasing AWS account visibility along with accounts from at least one other environment.
+IDAM-003 - Identity Governance & Administration (IGA)
+The partner's service should encompass customization services and a comprehensive list of products capable of delivering the following functionalities:
+Least privilege
+Identity Scanning
+Multi-Factor Authentication (MFA)
+Identity Federation
+Secrets Management
+Access Management
+Please provide the following as evidence:
+A reference architecture for the service, comprising a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and a detailed list of products utilized.
+Evidence must demonstrate the following capabilities:
+Implementation of least privilege and separation of duties throughout the lifecycle of joiners, movers, and leavers.
+Network or policy scanning to present a list of AWS services and roles with internet access.
+Support for Multi-Factor Authentication (MFA).
+Ability to federate internal and external users to AWS accounts and business applications.
+Management of passwords, keys, and other secrets to prevent customers from storing them in plain text on an instance.
+Clear visibility into how identity access rights are mapped to resources.
+IDAM-004 - Privilege Access Management (PAM)
+The partner's service should encompass customization services and a detailed list of products capable of delivering the following capability:
+PAM (Privileged Access Management) integration on supported operating systems
+Please provide the following as evidence:
+A reference architecture for the service, including a reference architecture diagram, description of custom services (such as policies, scripts, procedures, runbooks, or training), and a comprehensive list of products employed.
+Evidence must demonstrate the following capabilities:
+Provision of access to critical resources through Privileged Access Management (PAM) integration on supported operating systems.
+IDAM-005 - Just-in-Time (JIT) Access
+The partner's service should incorporate customization services and a suite of products to enable Just-in-Time (JIT) Access for users, ensuring temporary and controlled access to resources based on specific needs.
+Please provide the following as evidence:
+A reference architecture for the service, comprising a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and a detailed list of products utilized.
+Evidence must demonstrate the following capabilities:
+Implementation of JIT Access policies across diverse environments, including AWS, with the ability to define access duration and scope.
+Documentation of JIT Access policies, including procedures for requesting and approving temporary access.
+Monitoring and logging mechanisms to track and audit JIT Access events.
+Integration with identity and access management components to enforce JIT Access based on user roles and permissions.
+Clear visibility into the history of JIT Access requests, approvals, and revocations.
+IDAM-006 - AWS Services and Customer Configuration
+The partner is required to provide a concise description for each of the following AWS services, detailing their utilization within a production environment:
+AWS Identity and Access Management (IAM)
+AWS IAM Identity Center
+AWS Organizations
+AWS Directory Service
+Amazon Cognito
+AWS Resource Access Manager
+Amazon Verified Permissions
+Please provide the following as evidence:
+Written descriptions outlining the deployment and application of each specified AWS service in a production environment.
+Threat Detection and Response
+For this category, provide a reference architecture and summary of custom policies, scripts, procedures, and training with a list of products used to deliver solutions to customers with the following requirements.
+Reference architectures can be re-used between sections if they are broad enough to apply.
+TDRP-001 - Security Operations Center (SOC)
+The partner's service should encompass customization services and a comprehensive list of products capable of delivering the following capabilities:
+Remediation Guidance
+Event Triage
+Please provide the following as evidence:
+A reference architecture for the service, comprising a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and an exhaustive list of products utilized.
+Evidence must demonstrate the following capabilities:
+The AWS Partner's proficiency in delivering remediation guidance for security findings to enable customers to resolve identified issues within their environment effectively.
+Proficiency in assessing and enriching security findings within a customer's AWS Environment, offering additional context and actionable information to help customers minimize false positives and respond effectively to incidents.
+TDRP-002 - AWS aware tooling
+The partner's service should ensure visibility of AWS resources and metadata.
+Please provide the following as evidence:
+Detailed documentation containing AWS resource tags, region information, account details, and resource identifiers. These identifiers should be readily usable within the AWS console and APIs to locate and identify specific resources.
+TDRP-003 - AWS Services and Customer Configuration
+For each of the following AWS services, partners are required to provide a concise description of their utilization within a production environment:
+AWS Security Hub
+Amazon GuardDuty
+Amazon Security Lake
+Amazon Inspector
+Amazon CloudWatch
+AWS Config
+AWS CloudTrail
+VPC Flow Logs
+AWS IoT Device Defender
+Amazon Detective
+Amazon EventBridge
+AWS Backup
+AWS Elastic Disaster Recovery
+Please provide the following as evidence:
+Written descriptions outlining the deployment and application of each specified AWS service in a production environment.
+TDRP-004 - Endpoint Detection and Response (EDR)
+The partner's service should incorporate customization services and a comprehensive list of products offering the following capabilities:
+Detecting security incidents
+Containment of incidents at the endpoint
+Investigating incidents
+Providing remediation guidance
+Discovering instances running without an agent
+Supporting common operating systems: Amazon Linux 2, RedHat, CentOS, Ubuntu, and Windows running on EC2, in conjunction with one of the three services (Amazon ECS, Amazon EKS, AWS Fargate)
+Please provide the following as evidence:
+A reference architecture for the service, encompassing a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and an exhaustive list of products utilized.
+TDRP-005 - Network Detection and Response (NDR)
+For each of the following services, partners are required to provide a brief description of their utilization within a production environment:
+Network Detection and Alert
+Network Flow Protection
+Please provide the following as evidence:
+A reference architecture for the service, comprising a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and a comprehensive list of products employed.
+Evidence must demonstrate the following capabilities:
+Secure detection and alerting on malicious network actions using end-to-end encryption.
+Monitoring of network flows and protection against threats through analysis of anomalous behavior, unauthorized ports and protocols, signatures, and network volume.
+TDRP-006 - Security Information Event Management (SIEM)
+The partner's service should encompass customization services and a comprehensive list of products offering the following capabilities:
+AWS metadata searching
+AWS Security Finding Format (ASFF)
+High-velocity logs
+Data ingestion
+Please provide the following as evidence:
+A reference architecture for the service, comprising a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and a detailed list of products utilized.
+Evidence must demonstrate the following capabilities:
+Ability to search metadata and exhibit events based on AWS resource-specific metadata (tags, AMI, region, etc.).
+Ingestion of findings from AWS Security Hub utilizing the AWS Security Finding Format (ASFF).
+Usage of API calls solely for initial AWS resource discovery, employing event-driven approaches (e.g., AWS Config or AWS CloudTrail) to trigger API calls for updated status.
+Data ingestion from a minimum of five sources, including AWS CloudTrail, VPC flow logs, Amazon Route 53 public DNS query logs, AWS WAF logs, AWS X-Ray, Amazon RDS logs, AWS Config, Amazon Inspector, Amazon GuardDuty, Amazon Macie, AWS Security Hub, VPC Traffic Mirroring, AWS Network Firewall, and S3 server access logs.
+TDRP-007 - Security Orchestration, Automation, and Response (SOAR)
+The partner's service should comprise customization services and a comprehensive list of products capable of delivering the following capabilities:
+Fulfill all SIEM (Security Information and Event Management) requirements
+Utilize Global Threat Intelligence (GTI) and indicators of compromise for automated responses to alerts aligning with current playbook actions
+Automate remediation of critical findings
+Please provide the following as evidence:
+A reference architecture for the service, encompassing a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and a detailed list of products employed. This evidence must clearly demonstrate the capabilities mentioned above.
+TDRP-008 - Extended Detection and Response (XDR)
+The partner's service should encompass customization services and a comprehensive list of products capable of delivering the following capabilities:
+Detect and respond to threats targeting endpoints
+Detect and respond to threats targeting networks
+Please provide the following as evidence:
+A reference architecture for the service, comprising a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and an exhaustive list of products employed.
+Evidence must demonstrate the following capabilities:
+Compliance with all requirements outlined in the EDR (Endpoint Detection and Response) section of this category.
+Enhanced visibility into networking aspects beyond host-based agents, such as network sensors, NDR (Network Detection and Response), or analysis of flow logs.
+Infrastructure Protection
+For this category, provide a reference architecture and summary of custom policies, scripts, procedures, and training with a list of products used to deliver solutions to customers with the following requirements. Reference architectures can be re-used between sections if they are broad enough to apply.
+INFPR-001 - Distributed Denial of Service (DDoS) Protection
+The partner's service should comprise customization services and a comprehensive list of products offering the capability to:
+Provide DDoS protection for applications running within a customer's AWS accounts.
+Please provide the following as evidence:
+A reference architecture for the service, encompassing a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and an exhaustive list of products utilized. The recommended DDoS solutions should offer protection from layer 3, 4, and 7 attacks at Internet scale.
+INFPR-002 - Network Security Policy Management (NSPM)
+The partner's service should encompass customization services and utilize a range of products offering the following capabilities:
+A comprehensive view of network security policy spanning across AWS Cloud and at least one additional environment.
+Identification and simplification of redundant rules within the network security policy.
+Visualization of network edge policies.
+Please provide the following as evidence:
+A reference architecture illustrating the service, comprising a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and a comprehensive list of products employed.
+Evidence must demonstrate the following capabilities:
+Provision of a comprehensive view of network security policies from firewalls and other rules-based security solutions across both the AWS Cloud and other integrated environments.
+Identification of redundant or outdated rules with a process outlined for their simplification.
+Visualization of the network edge where managed policies reside.
+INFPR-003 - Cloud Access Security Broker (CASB)
+The partner's service should encompass customization services and utilize a range of products offering the capability to:
+Protect enterprise users' outbound connections from malicious content.
+Please provide the following as evidence:
+A reference architecture illustrating the service, comprising a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and an extensive list of products utilized.
+Evidence must demonstrate the following capabilities:
+Provision of an inline content filter, implemented via proxy or API, aimed at safeguarding enterprise users' outbound connections from malicious content, data leakage, and advanced threats.
+INFPR-004 - Secure Web Gateway (SWG)
+The partner's service should encompass customization services and utilize a range of products offering the capability to:
+Protect inbound and outbound connections.
+Please provide the following as evidence:
+A reference architecture illustrating the service, comprising a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and an extensive list of products utilized.
+Evidence must demonstrate the following capabilities:
+Provision of advanced protection for both inbound and outbound connections using features such as malware protection, data leakage prevention, application control, geo-awareness, HTTPS inspection, SSL decryption, and blocklist URL filtering.
+INFPR-005 - Zero Trust Network Access (ZTNA)
+The partner's service should encompass customization services and employ a range of products offering the following capabilities:
+Securing workloads without implicit trust in IP Address ranges
+Securing remote workloads
+Please provide the following as evidence:
+A reference architecture illustrating the service, comprising a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and an exhaustive list of products utilized.
+Evidence must the following requirements:
+Elimination of implicit trust in the network based on physical or network location, emphasizing users, assets, and resources.
+Assurance of securing workloads located outside the same network, such as remote workers and bring your own device (BYOD) scenarios.
+INFPR-006 - Security Service Edge (SSE)
+The partner's service should encompass customization services and employ a range of products offering the following capabilities:
+Filtering user connections
+Securing inbound and outbound connections
+Ensuring no implicit trust in IP Addresses
+Please provide the following as evidence:
+A reference architecture illustrating the service, comprising a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and a comprehensive list of products utilized.
+The evidence must meet the following requirements:
+Integration of Cloud Access Security Brokers (CASB)
+Implementation of Secure Web Gateway (SGW)
+Utilization of Zero Trust Network Access (ZTNA)
+INFPR-007 - AWS Services and Customer Configuration
+The partner is required to provide a concise description for each of the following AWS services, detailing their utilization within a production environment:
+Amazon GuardDuty
+AWS Firewall Manager
+AWS Network Firewall
+AWS Shield
+AWS WAF
+Amazon Virtual Private Cloud (VPC)
+AWS PrivateLink
+AWS Systems Manager
+AWS Verified Access
+Please provide the following as evidence:
+Written descriptions outlining the deployment and application of each specified AWS service in a production environment.
+Data Protection
+For this category, provide a reference architecture and summary of custom policies, scripts, procedures, and training with a list of products used to deliver solutions to customers with the following requirements. Reference architectures can be re-used between sections if they are broad enough to apply.
+DATP-001 - Database Security (DBSEC)
+The partner's service should include customization services and utilize a range of products offering the following capabilities:
+Data dashboard
+Data discovery
+Database scanning
+Please provide the following as evidence:
+A reference architecture illustrating the service, including a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and a comprehensive list of products utilized.
+Evidence must demonstrate the following capabilities:
+Provision of a visual dashboard allowing users to visualize the location of their data, its configuration compliance with active policies, and the data types stored.
+Ability to discover and classify sensitive data stored in AWS environments.
+Database scanning capabilities to identify misconfigurations, patch level vulnerabilities, absence of encryption, lack of backups, and issues related to identity and access control that might allow for privilege escalation.
+DATP-002 - Data Loss Prevention (DLP)
+The partner's service should include customization services and utilize a range of products offering the following capability:
+Understanding the location of sensitive data and its movement over time.
+Please provide the following as evidence:
+A reference architecture illustrating the service, comprising a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and a comprehensive list of products utilized.
+Evidence must demonstrate the following capabilities:
+Ability to scan both data at rest (stored data) and data in motion (network traffic) to identify instances where sensitive data is improperly used or exchanged, allowing for tracking and understanding of data movement.
+DATP-003 - Amazon S3 Malware Scanning (MAL)
+The partner's service should encompass customization services and utilize a set of products offering the following capability:
+Scanning for Malware on Amazon S3
+Please provide the following as evidence:
+A reference architecture delineating the service, featuring a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and an exhaustive list of products employed.
+Evidence must demonstrate the following capabilities:
+Ability to scan for malware within Amazon S3 utilizing an API-based, Event-based, or scheduled approach.
+DATP-004 - Tokenization and Masking (TOKEN)
+The partner's service should incorporate customization services and utilize a set of products providing the following capabilities:
+Tokenizing data to conceal sensitive fields
+Masking data to eliminate sensitive data from view
+Please provide the following as evidence:
+A comprehensive reference architecture outlining the service, including a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and an exhaustive list of products employed.
+Evidence must the following requirements:
+Ability to recognize sensitive information and apply a reversible process to substitute it with non-sensitive information in the same data format.
+Ability to identify sensitive information and permanently remove it, achieved either by deletion or by replacing it with non-sensitive data.
+DATP-005 - Email Security (EMAILSEC)
+The partner's service should involve customization services and employ a set of products offering the following capabilities:
+Scanning emails for compliance
+Encrypting emails to safeguard sensitive information
+Anti-phishing protection
+Please provide the following as evidence:
+An inclusive reference architecture detailing the service, featuring a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and a comprehensive list of products utilized.
+Evidence must the following requirements:
+Ability to scan emails for malicious code, attachments, and potential data leakage.
+Implementation of email encryption based on content filter policies.
+Incorporation of measures to scan emails for malicious messages and common phishing tactics, encompassing detection, remediation actions, and provision of training.
+DATP-006 - Keys and Secrets Management (KEYSEC)
+The partner's service should encompass customization services and leverage a suite of products offering the following capabilities:
+Data privacy benchmarks
+Customer keys management
+TLS (SSL) certificate management
+Data encryption and key management
+Please provide the following as evidence:
+A comprehensive reference architecture delineating the service, featuring a reference architecture diagram, a description of custom services (such as policies, scripts, procedures, runbooks, or training), and an exhaustive list of products utilized.
+Evidence must the following requirements:
+The AWS Partner should have a policy outlining the implementation of AWS privacy controls, encompassing advanced access, encryption, and logging features.
+A flexible key management policy provided by the AWS Partner should include use cases for customer selected keys.
+The partner's policy should encompass TLS (SSL) certificate monitoring for expiration, secure storage, and default use under HSTS (HTTP Strict Transport Security).
+Details should be provided on how the policy manages keys, including strategies for rotation and recovery.
+DATP-007 - AWS Services and Customer Configuration
+The partner is required to provide a concise description for each of the following AWS services, detailing their utilization within a production environment:
+Amazon Macie
+AWS Key Management Service (KMS)
+AWS CloudHSM
+AWS Certificate Manager
+AWS Private Certificate Authority (CA)
+AWS Secrets Manager
+AWS VPN
+Server-Side Encryption
+Please provide the following as evidence:
+Written descriptions outlining the deployment and application of each specified AWS service in a production environment.
+Compliance and Privacy
+For this category, provide a reference architecture and summary of custom policies, scripts, procedures, and training with a list of products used to deliver solutions to customers with the following requirements. Reference architectures can be re-used between sections if they are broad enough to apply.
+CPR-001 - Security Playbooks and Standard Operating Procedures
+The partner's service should encompass the capability to develop comprehensive security playbooks and standard operating procedures across the organization.
+Please provide the following as evidence:
+An established incident response playbook, capacity to establish self-regulating guardrails, and/or capability to identify deviations from predefined standards in configurations
+CPR-002 - Third Party Certification, Attestation, and Auditing
+The partner's service should demonstrate the capability to facilitate attainment of a third-party certification.
+Please provide the following as evidence:
+Details outlining how the service assisted a customer in designing and constructing an environment that attained a third-party certification, formal attestation, or successful completion of a third-party audit such as PCI or SOC 2.
+Validated third-party or customer attestation certifying the project's certification.
+CPR-003 - Shared Responsibility
+The partner's service should incorporate the AWS Shared Responsibility model within its internal training regimen to ensure consultants are equipped to assist customers in comprehending the delineation of responsibilities between AWS and the customer.
+Please provide the following as evidence:
+Training materials that specifically reference and incorporate details from the AWS Shared Responsibility Model
+CPR-004 - Efficient API Use
+The partner's services within this category should demonstrate proficiency in utilizing event-driven APIs.
+Please provide the following as evidence:
+A detailed description of the service offering exclusively reliant on API calls for the initial discovery of AWS resources. Additionally, showcase the utilization of event-driven methodologies, using services such as AWS Config or AWS CloudTrail, to trigger subsequent API calls for updated status."
+CPR-005 - Data Sovereignty
+The partner's services should include customizable features and a selection of products that facilitate the following capabilities:
+Identification of the countries in which the customer operates, along with relevant data sovereignty laws or corresponding internal policies.
+Please provide the following as evidence:
+A comprehensive reference architecture outlining the service offering, featuring a reference architecture diagram, detailed description of customized services (including policies, scripts, procedures, runbooks, or training), and a list of products employed.
+Training modules, marketing collateral, playbooks, or Statements of Work (SOWs) that showcase the partner's capacity to deliver solutions tailored to accommodate data sovereignty requirements.
+CPR-006 - AWS Services and Customer Configuration
+The partner should furnish a brief description detailing their practical utilization of the following AWS services:
+AWS Artifact
+AWS Audit Manager
+Please provide the following as evidence:
+Written descriptions outlining the deployment and application of each specified AWS service in a production environment.
+CPR-007 - Cloud Workload Protection Platform (CWPP)
+The partner's service offering should encompass customizable features and a selection of products that offer the following capabilities:
+Provision of a unified security overview encompassing workload protection across both AWS and on-premises environments.
+Please provide the following as evidence:
+A detailed reference architecture delineating the service offering, including a reference architecture diagram, a comprehensive description of tailored services (policies, scripts, procedures, runbooks, or training), and a comprehensive list of utilized products.
+Evidence must meet the following requirements:
+Demonstrate the ability to provide protections spanning OS/hardware hardening, network firewalling, system integrity, application control, exploit prevention, server Endpoint Detection and Response (EDR), Host-based Intrusion Prevention System (HIPS), and anti-malware scanning.
+CPR-008 - Cloud Security Posture Management (CSPM)
+The partner's service should encompass customizable offerings and a suite of products delivering the following capabilities:
+AWS resource tracking
+Compliance remediation
+Compliance checking
+Configuration drift prevention
+Misconfiguration checking
+Please provide the following as evidence:
+A comprehensive reference architecture detailing the service offering. This should include a reference architecture diagram, an elaborate description of customized services (policies, scripts, procedures, runbooks, or training), and an exhaustive list of utilized products.
+Evidence must meet the following requirements:
+Monitor and display an inventory of AWS resources along with their configuration statuses related to storage, compute, identity, and access.
+Recommend or automate a process to remediate resources that are out of compliance.
+Validate compliance against third-party benchmarks like CIS benchmark.
+Generate alerts in the event of configuration changes that deviate from established compliance policies.
+Detect and notify on instances of unencrypted databases, exposed data storage accessible via the Internet, and root access without Multi-Factor Authentication (MFA).
+CPR-009 - Attack Surface Management
+The partner's service offering should encompass customization services and a suite of products that facilitate attack surface management.
+Please provide the following as evidence:
+A detailed reference architecture outlining the service offer. This should include a reference architecture diagram, an explicit description of customized services (policies, scripts, procedures, runbooks, or training), and a comprehensive list of utilized products.
+Evidence must meet the following requirements:
+Manage customer's attack surface by continually discovering, categorizing, and monitoring their resource inventory from an external perspective, akin to a malicious hacker's viewpoint.
+CPR-010 - Container Security Configuration Scanning
+The partner's service must entail well-defined policies and procedures to ensure secure operations of containers.
+Please provide the following as evidence:
+A comprehensive reference architecture that encompasses a diagram illustrating the proposed offer. Additionally, include detailed descriptions of customized services (such as policies, scripts, procedures, runbooks, or training) and an exhaustive list of utilized products.
+Evidence must meet the following requirements:
+Proactive alerts triggered when container configurations deviate or drift from the approved baseline, along with corresponding playbooks to execute in response to such occurrences.
+Implementation of security measures to safeguard containers, integrating with at least one of the AWS container services - Amazon Elastic Container Service (Amazon ECS), Amazon Elastic Kubernetes Service (Amazon EKS), or AWS Fargate.
+Application Security
+For this category, provide a reference architecture and summary of custom policies, scripts, procedures, and training with a list of products used to deliver solutions to customers with the following requirements.
+Reference architectures can be re-used between sections if they are broad enough to apply.
+APSEC-001 - Application Security
+The partner's service must encompass tailored services and a curated list of products that facilitate the following functionalities:
+Application and operating system hardening
+Pipeline scanning
+Code reviews and application development
+Please provide the following as evidence:
+A detailed reference architecture that includes an illustrative diagram showcasing the proposed offer. Additionally, furnish comprehensive descriptions of customized services (such as policies, scripts, procedures, runbooks, or training) and an exhaustive list of utilized products.
+Evidence must meet the following requirements:
+Automated scripts or documented procedures outlining the steps involved in the hardening process. This should align with industry-standard benchmarks such as CIS standards or require application usage of exclusively FIPS-certified software libraries.
+Automated vulnerability scans of the CI/CD pipeline, encompassing code scans, least privilege access validation, patch management assessment, and network ports and protocols examination.
+Implementation of a hybrid approach involving automated static and/or dynamic analysis tools alongside expert reviews. These measures should offer code development or review services aimed at preemptively identifying security vulnerabilities within custom code bases and addressing them proactively.
+APSEC-002 - Runtime Application and Self-Protection (RASP)
+The partner's service offerings should encompass customized solutions and a compilation of products capable of delivering the following functionalities:
+Application of security algorithms in-line to all system level calls
+Detection and blocking of security attacks and anomalies occurring within a running application
+Please provide the following as evidence:
+A comprehensive reference architecture outlining the proposed offer. This should include an illustrative reference architecture diagram, a detailed description of customized services (such as policies, scripts, procedures, runbooks, or training), and an exhaustive list of employed products.
+Evidence must meet the following requirements:
+Implementation of security algorithms directly on the same server as the protected application. This should entail in-line application of security algorithms to all system-level calls and data exchanges.
+Detailed insights into the Runtime Application Self-Protection (RASP) security measures. The evidence should showcase the RASP's ability to detect, block, and mitigate security attacks and anomalies occurring within a running application environment.
+APSEC-003 - Web Application and API Protection (WAAP)
+The partner's service suite must encompass customized solutions and a range of products capable of delivering the following functionalities:
+Deployment and configuration of a variety of application protection solutions, potentially including but not limited to Web Application Firewall (WAF) solutions, bot management solutions, API Security solutions, AI Firewalls
+Advisory on these application protection solutions logging, configuration, and rules management
+Addressing a variety of critical security risks that may include areas such as OWASP Top 10 web application security risks, OWASP API Security Top 10 risks, OWASP Machine Learning Security Top 10 risks, and OWASP Top 10 for Large Language Model Applications security risks, among others
+Please provide the following as evidence:
+A comprehensive reference architecture outlining the proposed offer. This should include a clear reference architecture diagram, a detailed description of customized services (such as policies, scripts, procedures, runbooks, or training), and an exhaustive list of employed products.
+Evidence must meet the following requirements:
+Demonstrate the ability to deploy and configure a variety of application protection solutions, potentially including but not limited to Web Application Firewall (WAF) solutions, bot management solutions, API Security solutions, AI Firewalls.
+Address a variety of critical security risks that may include areas such as OWASP Top 10 web application security risks, OWASP API Security Top 10 risks, OWASP Machine Learning Security Top 10 risks, OWASP Top 10 for Large Language Model Applications security risks, and others.
+APSEC-004 - Application Testing
+The partner's service portfolio must encompass tailored services and a selection of products capable of delivering the following capabilities:
+Static Code Analysis
+Dynamic Code Analysis
+Please provide the following as evidence:
+A comprehensive reference architecture outlining the proposed offer. This should include a clear reference architecture diagram, a detailed description of customized services (such as policies, scripts, procedures, runbooks, or training), and an exhaustive list of employed products.
+Evidence must meet the following requirements:
+Perform Static Code Analysis for applications in the pre-production phase, ensuring thorough examination and assessment of the source code for vulnerabilities and security issues.
+Conduct Dynamic Code Analysis for applications in the pre-production phase, utilizing runtime testing and analysis to detect vulnerabilities and security flaws during execution.
+APSEC-005 - Penetration Testing
+The partner's service provision must incorporate the capability to conduct penetration testing in compliance with AWS policies.
+Please provide the following as evidence:
+A comprehensive description of the service offering outlining the procedures and protocols employed by the partner for conducting penetration testing on AWS infrastructure. This description should explicitly align with and adhere to the guidelines delineated in the AWS Penetration Testing policy
+Perimeter Protection
+For this category, provide a reference architecture and summary of custom policies, scripts, procedures, and training with a list of products used to deliver solutions to customers with the following requirements.
+Reference architectures can be re-used between sections if they are broad enough to apply.
+PPROT-001 - Security Operations Center (SOC)
+The partner's service offering should encompass customization services and a suite of products that provide the following capabilities:
+Security Operations Center (SOC) to support AWS customer environments
+Please provide the following as evidence:
+A comprehensive reference architecture outlining the proposed offer. This should include a clear reference architecture diagram, a detailed description of customized services (such as policies, scripts, procedures, runbooks, or training), and an exhaustive list of employed products, tailored specifically to the SOC's functioning within AWS environments.
+Evidence must meet the following requirements:
+Demonstrate the SOC's capability to provide round-the-clock (24/7) support, manned by skilled security engineers proficient in WAF rule creation, mitigation strategies, escalation protocols, and adept in parsing and analyzing security logs.
+PPROT-002 - Distributed Request Handling
+The partner's service offering must encompass customization services and a set of products that enable distributed request handling.
+Please provide the following as evidence:
+A detailed reference architecture demonstrating the design, including a reference architecture diagram, comprehensive descriptions of custom services (policies, scripts, procedures, runbooks, or training), and a complete list of products utilized.
+Evidence must meet the following requirements:
+Distribution of AWS request handling across AWS edge locations, achieved through services such as AWS Global Accelerator or an equivalent solution.
+PPROT-003 - Custom Edge Rules
+The partner's service offering must include tailored services and a suite of products that support the customization of security rules for edge computing environments.
+Please provide the following as evidence:
+A reference architecture outlining the design, featuring a diagram depicting the architecture, comprehensive descriptions of customized services (including policies, scripts, procedures, runbooks, or training), and a detailed inventory of utilized products.
+Evidence must meet the following requirements:
+Application of suitable security measures using AWS Managed Rules, Marketplace Rules, or the development of custom rules to ensure the necessary level of protection.
+PPROT-004 - Secure Content Delivery
+The partner's service package should encompass tailored services and a suite of products to ensure the security of content delivery from AWS Edge locations.
+Please provide the following as evidence:
+A reference architecture demonstrating the service's framework, including a detailed architecture diagram, descriptions of customized services (such as policies, scripts, procedures, runbooks, or training), and an inventory of utilized products.
+Evidence must meet the following requirements:
+Implementation of security measures like TLS (SSL) encryption, signed URLs, signed cookies, or token authentication to safeguard content delivery.
+Protection of the Content Delivery Network (CDN) against Layer 3/4 DDoS incidents using AWS Shield, and against L7 DDoS events, bots, and web application exploits utilizing AWS WAF.
+Utilization of AWS Firewall Manager for centralized configuration and management of firewall rules across multiple accounts and applications within AWS Organizations.
+PPROT-005 - Layered Edge Services Defense
+The partner's service offering should encompass tailored services and a suite of products aimed at establishing a layered security posture for customer accounts, assets, and distributions at the Edge using various AWS services.
+Please provide the following as evidence:
+A reference architecture that details the service offering, encompassing a comprehensive architecture diagram, descriptions of custom services (like policies, scripts, procedures, runbooks, or training), and an inventory of utilized products.
+Evidence must meet the following requirements:
+Inclusion of AWS Shield and AWS WAF as integral components within the architecture.
+Additionally recommended components like Amazon CloudFront and AWS WAF Bot Control feature should be outlined within the architecture to enhance the overall security posture.
+PPROT-006 - Support Cases
+The partner's service package should incorporate tailored services and a selection of products that enable automated procedures for initiating support cases with AWS Shield Response Team (SRT) on behalf of their customers.
+Please provide the following as evidence:
+A reference architecture outlining the service package, encompassing a detailed architecture diagram, descriptions elucidating custom services (e.g., policies, scripts, procedures, runbooks, or training), and an inventory of utilized products.
+Evidence must meet the following requirements:
+Confirmation of Business Level support in all cases as per AWS support levels.
+Documentation or demonstration of automated procedures or mechanisms enabling the partner to automatically raise support cases with the AWS Shield Response Team (SRT) on behalf of their clients.
+PPROT-007 - Investigation Policies
+The partner's service offering should encompass tailored services and a selection of products that facilitate the following capabilities:
+Design and implementation of investigation policies and processes that seamlessly align with organizational requisites.
+Please provide the following as evidence:
+A comprehensive reference architecture for the service package, encompassing a detailed reference architecture diagram, an explanatory breakdown of custom services (e.g., policies, scripts, procedures, runbooks, or training), and an inventory specifying the products utilized.
+Documentation or evidence illustrating the alignment of investigation policies and processes with the organizational requirements.
+Outline or demonstration of the procedural framework for conducting incident response simulations. This should include details about the utilized tools, any automation involved, detection methodologies employed, the investigation process flow, and recovery procedures utilized during these simulations.
+PPROT-008 - Security Information and Event Management (SIEM)
+The partner's service should encompass customized solutions and a suite of products that offer the following capabilities:
+SIEM (or equivalent functionality) for auditing, real-time monitoring, alerting, and generating reports on changes within an environment.
+Please provide the following as evidence:
+A detailed reference architecture outlining the service package. This should include a comprehensive reference architecture diagram, a breakdown of custom services (e.g., policies, scripts, procedures, runbooks, or training), and a catalog detailing the products incorporated.
+Evidence must meet the following requirements:
+Confirmation of the ingestion of various logs and metrics, such as AWS CloudTrail Logs, Amazon VPC Flow Logs, Amazon CloudWatch logs, AWS WAF logs, and AWS Shield events.
+Demonstration or description of an API integrated with systems capable of automating investigation processes and taking necessary actions based on the gathered data.
+Core Security
+For this category, Partner must meet requirements for all core Security Consulting Competency Categories - Identity and Access Manager, Threat Detection and Response, Infrastructure Protection, Data Protection, Compliance and Privacy, Application Security, and Perimeter Protection. Partners should provide a reference architecture and summary of custom policies, scripts, procedures, and training with a list of products used to deliver solutions to customers with the following requirements. Reference architectures can be re-used between sections if they are broad enough to apply.
+CORE-001 - SOC Implementation and Incident Response
+The partner's service portfolio should encompass customization services and a range of products offering the following capabilities:
+Guidance on the design, implementation, and empowerment of a Security Operations Center (SOC)
+Partner-led remediation solutions
+Evidence collection and investigation procedures
+Please provide the following as evidence:
+A comprehensive reference architecture, including a diagram and descriptions of custom services such as policies, scripts, procedures, runbooks, or training programs, along with a catalogue of utilized products.
+Evidence must meet the following requirements:
+Demonstrable incident response playbooks outlining the partner's analysis of various AWS telemetry sources, encompassing AWS CloudTrail, Amazon GuardDuty findings, AWS WAF logs, AWS S3 access logs, Amazon VPC Flow logs, OS, and application logs. Additionally, the partner must exhibit the capability to integrate these security workflows, alerts, and logs into a centralized SIEM (Security Information and Event Management) system and a ticketing system.
+Clear documentation detailing common security events, associated responses, and escalation protocols up to the customer's board or relevant stakeholders.
+Documented procedures outlining the methodology for conducting investigations into incidents occurring within AWS workloads, including evidence collection processes.
+CORE-002 - Business Continuity (BC)
+The partner's service offering should incorporate customization services and a range of products that provide the following capabilities:
+Risk management strategy
+Business environment understanding
+Asset management solutions
+Disaster recovery planning
+Isolated backup storage solutions
+Please provide the following as evidence:
+A reference architecture detailing a diagram and descriptions of custom services encompassing policies, scripts, procedures, runbooks, or training modules, in addition to a compiled list of utilized products.
+Evidence must meet the following requirements:
+Establishment of organizational priorities, constraints, risk tolerances, and assumptions to support operational risk decisions.
+Comprehensive understanding and prioritization of the organization's mission, objectives, stakeholders, and activities. This information should guide cybersecurity roles, responsibilities, and risk management decisions.
+Identification, categorization, and management of data, personnel, devices, systems, and facilities pertinent to achieving business objectives, in line with the organization's risk strategy.
+Documentation outlining the process for backup recovery, frequency of testing of Continuity of Operations (COOP) plans, and plans for on-premises or multi-cloud recovery into AWS.
+Implementation of policies and processes ensuring that customer backups are isolated from the production network, with distinct access roles and separate Multi-Factor Authentication (MFA) access similar to audit accounts.
+CORE-003 - Ransomware Protection
+The partner's service offerings should encompass customization services and a set of products catering to specific capabilities:
+Automated deployment solutions
+Active protection mechanisms
+Visibility enhancement tools
+Response plan development
+Please provide the following as evidence:
+A reference architecture illustrating a diagram and descriptions outlining custom services, including policies, scripts, procedures, runbooks, or training modules, alongside a comprehensive list of utilized products.
+Evidence must meet the following requirements:
+Documentation or automation procedures demonstrating the deployment of anti-ransomware software within the company or equivalent assets in their application.
+Detailed strategies addressing host and network attack vectors, coupled with policy enforcement measures such as patch management.
+Inventory management systems for digital assets, along with logging, reporting, vulnerability management, and event detection mechanisms.
+Incorporation of secure backup practices, immutable storage solutions, as well as capabilities related to investigation and analytics.
+CORE-004 - Software Composition Analysis (SCA)
+The partner's service should encompass customization services and a collection of products to fulfill the following capabilities:
+Software Composition Analysis (SCA) of Open-Source Software (OSS)
+Please provide the following as evidence:
+A reference architecture delineating a diagram and detailed descriptions outlining custom services, encompassing policies, scripts, procedures, runbooks, or training modules. Additionally, provide a comprehensive list of the employed products.
+Evidence must meet the following requirements:
+Demonstration of the partner's capability to discern all third-party software, inclusive of OSS, embedded within an application.
+Showcasing the solution's capability to offer visibility into the software licensing terms inherent in the utilized software, such as the GNU General Public Licenses (GPL).
+Common Customer Example Requirements
+All of the following requirements must be met by at least one of the four submitted customer examples. See specific evidence for each control. Refer to calibration guide for example responses.
+Documentation
+Requirements in this category relate to the documentation provided for each customer example.
+DOC-001 - Provide Architecture diagram designed with scalability and high availability
+AWS Partner must submit architecture diagrams depicting the overall design and deployment of its AWS Partner solution on AWS as well as any other relevant details of the solution for the specific customer in question.
+The submitted diagrams are intended to provide context to the AWS Solutions Architect conducting the Technical Validation. It is critical to provide clear diagrams with an appropriate level of detail that enable the AWS Solutions Architect to validate the other requirements listed below.
+Each architecture diagram must show:
+All of the AWS services used
+How the AWS services are deployed, including virtual private clouds (VPCs), availability zones, subnets, and connections to systems outside of AWS.
+Elements deployed outside of AWS, e.g. on-premises components, or hardware devices.
+how design scales automatically - Solution adapts to changes in demand. The architecture uses services that automatically scale such as Amazon S3, Amazon CloudFront, AWS Auto Scaling, and AWS Lambda.
+how design has high availability with multi-AZ or multi-region deployment. When intentional tradeoffs have been made (e.g. to optimize cost in favor of high availability), please explain the customer's requirements.
+Please provide the following as evidence (required for all provided customer examples):
+An architecture diagram depicting the overall design and deployment of your solution on AWS.
+Explanation of how the major solutions elements will keep running in case of failure.
+Description of how the major solutions elements scale up automatically.
+Secure Customer AWS Account Governance and Access
+Any AWS accounts created by the AWS Partner on behalf of the customer or AWS accounts that the AWS Partner administers as part of the engagement must meet the following requirements.
+ACCT-001 - Define Secure AWS Account Governance Best Practice
+AWS expects all Services Partners to be prepared to create AWS accounts and implement basic security best practices. Even if most of your customer engagements do not require this, you should be prepared in the event you work with a customer who needs you to create new accounts for them.
+Establish internal processes regarding how to create AWS accounts on behalf of customers when needed, including:
+When to use root account for workload activities
+Enable MFA on root
+Set the contact information to corporate email address or phone number
+Enable CloudTrail logs in all region and protect CloudTrail logs from accidental deletion with a dedicated S3 bucket
+Please provide the following as evidence:
+Documents describing Security engagement SOPs which met all the 4 criteria defined above. Acceptable evidence types are security training documents, internal wikis, or standard operating procedures documents.
+Description of how Secure AWS Account Governance is implemented in one (1) of the submitted customer examples.
+ACCT-002 - Define identity security best practice on how to access customer environment by leveraging IAM
+Define standard approach to access customer-owned AWS accounts, including:
+Both AWS Management Console access and programmatic access using the AWS Command Line Interface or other custom tools.
+When and how to use temporary credentials such as IAM roles
+Leverage customer's existing enterprise user identities and their credentials to access AWS services through Identity Federation or migrating to AWS Managed Active Directory
+Establish best practices around
+AWS Identity and Access Management (IAM) and other identity and access management systems, including:
+IAM principals are only granted the minimum privileges necessary. Wildcards in Action and Resource elements should be avoided as much as possible.
+Every AWS Partner individual who accesses an AWS account must do so using dedicated credentials
+Please provide the following as evidence:
+Security engagement Standard Operation Procedure (SOP) which met all the 2 criteria defined above. Acceptable evidence types are: security training documents, internal wikis, standard operating procedures documents. Written descriptions in the self-assessment excel is not acceptable.
+Description of how IAM best practices are implemented in one (1) of the submitted customer examples.
+Operational Excellence
+Requirements in this category relate to the ability of the AWS Partner and the customer to run and monitor systems to deliver business value and to continually improve supporting processes and procedures.
+OPE-001 - Define, monitor and analyze customer workload health KPIs
+AWS Partner has defined metrics for determining the health of each component of the workload and provided the customer with guidance on how to detect operational events based on these metrics.
+Establish the capability to run, monitor and improve operational procedure by:
+Defining, collecting and analyzing workload health metrics w/AWS services or 3rd Party tool
+Exporting standard application logs that capture errors and aid in troubleshooting and response to operational events.
+Defining threshold of operational metrics to generate alert for any issues
+Please provide the following as evidence:
+Standardized documents or guidance on how to develop customer workload health KPIs with the three components above
+Description of how workload health KPIs are implemented in (1) of the submitted customer examples.
+OPE-002 - Define a customer runbook/playbook to guide operational tasks
+Create a runbook to document routine activities and guide issue resolution process with a list of operational tasks and troubleshooting scenarios covered that specifically addresses the KPI metrics defined in OPE-001.
+Please provide the following as evidence:
+Standardized documents or runbook met the criteria defined above.
+OPE-003 - Use consistent processes (e.g. checklist) to assess deployment readiness
+Deployments are tested or otherwise validated before being applied to the production environment. For example, DevOps pipelines used for the project for provisioning resources or releasing software and applications.
+Use a consistent approach to deploy to customers including:
+A well-defined testing process before launching in production environment
+Automated testing components
+Please provide the following as evidence:
+A deployment checklist example or written descriptions met all the criteria defined above.
+Security - Networking
+Requirements in this category focus on security best practices for Virtual Private Cloud (Amazon VPC) and other network security considerations.
+NETSEC-001 - Define security best practices for Virtual Private Cloud (Amazon VPC) and other network security considerations.
+Establish internal processes regarding how to secure traffic within VPC, including:
+Security Groups to restrict traffic between Internet and Amazon VPC
+Security Groups to restrict traffic within the Amazon VPC
+Network ACL to restrict inbound and outbound traffic
+Other AWS security services to protect network security
+Please provide the following as evidence:
+Written descriptions/documents on network security best practices met the criteria defined above.
+Description of how network security is implementation in one (1) of the submitted customer examples.
+NETSEC-002 - Define data encryption policy for data at rest and in transit
+Establish internal processes regarding a data encryption policy used across all customer projects
+Summary of any endpoints exposed to the Internet and how traffic is encrypted
+Summary of processes that make requests to external endpoints over the Internet and how traffic is encrypted
+Enforcing encryption at rest. By default you should enable the native encryption features in an AWS service that stores data unless there is a reason not to.
+All cryptographic keys are stored and managed using a dedicated key management solution
+Please provide the following as evidence:
+Data encryption and key management policy met the criteria defined above.
+Description of how data encryption is implementation in one (1) of the submitted customer examples.
+Reliability
+Requirements in this section focus on the ability of the AWS Partner solution to prevent, and quickly recover from failures to meet business and customer demand.
+REL-001 - Automate Deployment and leverage infrastructure-as-code tools.
+Changes to infrastructure are automated for customer implementation
+Tools like AWS CloudFormation, the AWS CLI, or other scripting tools were used for automation.
+Changes to the production environment were not done using the AWS Management Console.
+Please provide the following as evidence:
+Written description of deployment automation and an example template (e.g., CloudFormation templates, architecture diagram for CI/CD pipeline) met the criteria defined above.
+REL-002 - Plan for disaster recovery and recommend Recoverty Time Objective (RTO) and Recoverty Point Objective (RPO).
+Incorporate resilience discussion and advise a RTO&PRO target when engaging with customer. Customer acceptance and adoption on RTO/RPO is not required.
+Establish a process to establish workload resilience including:
+RTO & RPO target
+Explanation of the recovery process for the core components of the architecture
+Customer awareness and communication on this topic
+Please provide the following as evidence:
+Descriptions or documents on workload resilience guidance met the three criteria defined above
+Description of how resilience is implementation in one (1) of the submitted customer examples including reasons for exception when RTO&RPO is not defined
+Cost Optimization
+Requirements in this category relate to the AWS Partner's ability to help customers run systems that deliver business value at the lowest price point.
+COST-001 - Develop total cost of ownership analysis or cost modelling
+Determine solution costs using right sizing and right pricing for both technical and business justification.
+Conducted TCO analysis or other form of cost modelling to provide the customer with an understanding of the ongoing costs including all the following 3 areas:
+Description of the inputs used to estimate the cost of the solution
+Summary of the estimates or cost model provided to the customer before implementation
+Business value analysis or value stream mapping of AWS solution
+Please provide the following as evidence:
+Description of how to develop cost analysis or modeling with the critical components defined above
+Cost analysis example in one (1) of the submitted customer examples. Acceptable evidence types are: price calculator link, reports or presentations on business values analysis
+Security Customer Example Requirements
+The following requirements apply to each provided customer examples.
+Customer Examples
+EXMUC-001 - Customer Example Definition
+Customer examples can be categorized as:
+Public - Public customer examples are published to the Internet and a publicly visible URL is provided to AWS. Public case studies reference the customer by name.
+Private - Private customer examples are not published to the Internet or shared outside a limited number of AWS employees who need to validate the application.
+Anonymous - Anonymized customer examples are published to the Internet with a publicly visible URL, however the actual customer name may be replaced with an anonymized term such as “top healthcare provider in Europe.”
+EXMUC-002 - Customer Example Numbers
+There is a minimum of four (4) customer examples required for the security competency. There are two options to meet the four customer examples:
+Option A - two (2) private customer examples and two (2) public customer examples
+Option B - four public (4) anonymized customer examples
+If the AWS Partner is applying for multiple categories then the partner still only needs four (4) customer examples total that meet the above requirements. Additionally, the same customer example may apply in multiple categories as long as they are all a part of the same application. To spread the customer examples there is a minimum of:
+Option A - one (1) public and (1) private
+Option B - two (2) anonymized
+EXMUC-003 - Security-specific customer examples
+The Security Competency is intended to identify and promote AWS Partners who help customers secure their AWS Infrastructure and hybrid environments such as on-premise applications. All customer examples must meet these criteria:
+Customer examples must have a principal narrative around Security.
+They may include non-security tasks, but the narrative must focus on solutions to security challenges.
+Each customer example must have three (3) security customizations.
+A security customization is a deep level of configuration that requires the partner to create unique content in order to address a customer security challenge and does not include simple tool deployments, quickstarts, or pre-built security libraries. Examples of a customization include: building policies to meet regulatory compliance, creating Lambda remediation scripts for security alerts, building a customized CloudWatch dashboard, designing and deploying a new Organizations hierarchy, implementing key management policies and processes, or developing a custom set of WAF rules.
+Customer examples involve a process and people transformation in addition to technical enablement and delivery.
+Customer examples must exceed AWS Best Practices in some way as defined by the Security Reference Architecture, the Well Architected Framework, and the Security Perspective of the AWS Cloud Adoption Framework (CAF).
+Each customer example must contain a short description of how at least five (5) AWS native security controls were leveraged (such as IAM, CloudTrail, CloudWatch Events, Security Hub, and GuardDuty). List of acceptable AWS native security tools include:
+Amazon CloudWatch
+Amazon CodeGuru
+Amazon Cognito
+Amazon Fraud Detector
+Amazon GuardDuty
+Amazon Inspector
+Amazon Macie
+Amazon Route 53 Resolver DNS Firewall
+AWS Access Analyzer
+AWS Audit Manager
+AWS Certificate Manager
+AWS CloudHSMAWS CloudTrail
+AWS CloudWatch Events
+AWS Config
+AWS Config Rules
+AWS Detective
+AWS Direct Connect
+AWS Elastic Disaster Recovery (EDR)
+AWS Firewall Manager
+AWS Identity and Access Management (IAM)
+AWS Key Management Service (KMS)
+AWS Lambda for security resources
+AWS Network Firewall
+AWS Secrets Manager
+AWS Security Hub
+AWS Shield and Shield Advanced
+AWS Single Sign-On
+AWS WAF (Web Access Firewall)
+EXMUC-004 - Architectural Diagram
+AWS Partner must provide an architectural diagram that follows the AWS Best Practices as defined by the Security Reference Architecture(SRA), the Well Architected Framework, and the Security Perspective of the AWS Cloud Adoption Framework (CAF).
+Where possible, the partner should leverage the SRA diagram as the baseline and highlight which AWS native services are used, non-AWS security tools used, and note any customizations.
+AWS CloudFormation is also recommended and can leverage example scripts from the SRA repository.
+Please provide the following as evidence:
+Customer implementation description and must include an architectural diagram and AWS CloudFormation template, where appropriate.
+EXMUC-005 - Security Tooling
+AWS Partner must have a playbook and design pattern for standardized security tooling they recommend to customers to meet their security and compliance
+needs, including ALL of the following:
+AWS Account Security Assessment (Root Credential Storage, S3 Bucket Permissions, IAM Permissions, etc.)
+Identity, Access Control, and Federation (Secrets Management, SSO, Privileged User Management, Host/App AuthZ/AuthN)
+Web Application Firewall (WAF)
+DDoS protection
+Firewall and Networking Infrastructure (NGFW, Micro-Segmentation, Security Group Management, Network Analysis/Packet Capture)
+Remote Connectivity Infrastructure
+Endpoint, Host Security (EDR/EPP) and Container Security
+File Integrity Monitoring (FIM)
+Intrusion Detection and Prevention (IDS/IPS)
+Centralized Logging, Monitoring, and/or SIEM
+Proxies and Egress Access
+Encryption and Key/Secrets Management of S3, EBS, DynamoDB
+Data Loss Prevention (DLP)
+If the tool is NOT part of the AWS Security Competency, AWS Partner must provide reasons why the solution was chosen and what mechanisms
+they have in place to make sure it meets the standards of the Security Software Competency.
+Please provide the following as evidence:
+Customer implementation description and must include an architectural diagram and AWS CloudFormation template, where appropriate.
+Resources
+AWS Specialization Program Guide
+Provides step-by-step instructions when applying for an AWS Specialization.
+AWS Specialization Program Benefits Guide
+Provides a deeper description of the program benefits.
+AWS Competency Application Process
+Provides high-level visibility into the AWS Competency application process and timelines for associated process steps.
+AWS Competency & SDP Common Customer Example Requirement Calibration Guide
+Provides control-by-control best practices, resources to implement, good example responses.
+How to build a microsite
+Provides guidance on how to build a microsite to highlight your AWS Specialization.
+How to build a public case study
+Provides guidance on how to build a public customer case study that will showcase your success with AWS Customers.
+How to build an architecture diagram
+Provides guidance on how to build an architecture diagrams that will meet the prerequisites of the Program.
+Well Architected Website
+Learn about the Well Architected Framework and its approach.
+SaaS Best Practices
+Provides best practices on SaaS
+Changes between previous and current versions
+Change Log
+Deployment Pipeline Reference Architecture
+Learn about the stages and actions for different types of pipelines that exist in modern systems.

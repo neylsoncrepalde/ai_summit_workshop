@@ -1,0 +1,7 @@
+https://partyrock.aws/u/markproy/XWPTbMoSt/GenAgentsForBedrock
+
+my api has 3 methods. First method is generateCase. 
+This method generates a case table based on information provided, that is, client, casename, challenge, 
+solution, budget, and kpi. It returns all those properties plus a caseId generated randomly. 
+The second method is check case. It takes the caseId string and return all the available information on the case. 
+Third is the notify method. It takes the caseId string and returns a message that the user was properly notified.
